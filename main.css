@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 html, body {
   margin: 0;
 	padding: 0;
@@ -5,8 +7,51 @@ html, body {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  display: inline;
 }
 
-.trophyBody {
-  background: url("img/basertrophy.svg");
+.worldTrophy {
+  height: 730.65px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.regTrophy {
+  height: 492px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.year {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 660px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.award {
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 610px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.vexLogoTop {
+  position: absolute;
+  width: 250px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+#small {
+  padding-top:250px;
 }
